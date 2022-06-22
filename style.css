@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card--border {
+  border: 0.25rem solid green;
+}
+.card .card__details {
+  padding: 2rem;
+}
+.card .card__details .card__description {
+  margin-top: 1rem;
+}
+.card .card__details .card__infobox {
+  background-color: grey;
+  color: darkslategray;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+}
+.card .card__details .card__button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-top: 1rem;
+}
+.card .card__details .card__button--secondary {
+  background-color: whitesmoke;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 500px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=style.css.map */

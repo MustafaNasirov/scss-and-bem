@@ -1,0 +1,53 @@
+@use "./variables" as *;
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+   
+    .card__image{
+        
+    }
+
+    &--border{
+        border: 0.25rem solid green;
+    }
+
+    .card__details{
+        padding: 2rem;
+
+        .card__heading{
+            
+        }
+
+        .card__description{
+           margin-top: 1rem;
+        }
+
+        .card__infobox{
+            background-color: grey;
+            color:darkslategray;
+            padding: .5rem;
+            border-radius: 0.75rem;
+        }
+        
+        .card__button{
+            background-color: black;
+            font-family: $font;
+            padding: 0.5rem;
+            font-size: 1rem;
+            color: whitesmoke;
+            margin-top: 1rem;
+
+            &--secondary{
+                background-color: whitesmoke;
+                color: black;
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,21 @@
+@use "./variables" as *;
+@use "./card";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 500px;
+    background-color: $background-color;
+    font-family: $font;
+}
+
+h1{
+    color: $text-color;
+    font-family: $font;
+
+}
+
+
